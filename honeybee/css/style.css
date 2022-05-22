@@ -41,3 +41,7 @@ a{
 .menu-bar a.active{
     background-color: orange;
 }
+
+.static{
+    position: static;
+}
