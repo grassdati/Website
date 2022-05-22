@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+.button1{
+    position: relative;
+    border-radius: 8px;
+    width: 1010;
+    height: 353;
+}
+
+.text-wrap{
+    position: absolute;
+    bottom: 0;
+    padding: 4px;
+    z-index: 1;
+}
+
+a{
+    text-decoration: none;
+    font-family:'Black Han Sans', sans-serif;
+    color: black !important;
+    
+
+}
+
+.menu-bar{
+    background-color: gold;
+    overflow: auto;
+}
+
+.menu-bar a{
+    padding: 12px;
+    display: inline-block;
+    font-size: 18px;
+    float: left;
+}
+
+.menu-bar a:hover{
+    background-color: goldenrod;
+}
+
+.menu-bar a.active{
+    background-color: orange;
+}
